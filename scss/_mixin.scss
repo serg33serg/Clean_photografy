@@ -1,0 +1,29 @@
+// медиазапросы
+@mixin respond($breakpoint) {
+    @if($breakpoint == 1350px)  {
+      @media (max-width: 1350px) { @content }
+    }
+    @if($breakpoint == 1150px)  {
+      @media (max-width: 1150px) { @content }
+    }
+    @if($breakpoint == 960px)  {
+      @media (max-width: 960px) { @content }
+    }
+    @if($breakpoint == 750px)  {
+      @media (max-width: 750px) { @content }
+    }
+    @if($breakpoint == 650px)  {
+      @media (max-width: 650px) { @content }
+    }
+    @if($breakpoint == 550px)  {
+      @media (max-width: 550px) { @content }
+    }
+    @if($breakpoint == 450px)  {
+      @media (max-width: 450px) { @content }
+    }
+    @if($breakpoint == 350px)  {
+      @media (max-width: 350px) { @content }
+    }
+  }
+
+/*# sourceMappingURL=mixin.scss.map */
