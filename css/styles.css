@@ -105,70 +105,89 @@ html {
   padding-top: 90px;
   transform: scale(1.5, 1);
 }
-@media (max-width: 1350px) {
-  .photo .container .photo__text2 {
-    padding-top: 60px;
-  }
-}
-@media (max-width: 960px) {
-  .photo .container .photo__text2 {
-    padding-top: 45px;
-  }
-}
-@media (max-width: 550px) {
-  .photo .container .photo__text2 {
-    padding-top: 30px;
-  }
-}
-@media (max-width: 450px) {
-  .photo .container .photo__text2 {
-    padding-top: 20px;
-  }
+.photo .container .photo__probel {
+  width: 100%;
+  height: 70px;
 }
 .photo .container .photo__text3 {
   font-family: "Roboto-Regular", sans-serif;
   font-size: calc(6px + 1.875vw);
   line-height: normal;
   color: #fff;
-  padding-top: 90px;
+}
+.photo .is-hidden {
+  width: 0;
+}
+.photo .is-visible {
+  width: 21%;
+}
+.photo .photo__text31 {
+  display: none;
+  width: 0;
+  overflow: hidden;
+  vertical-align: top;
+  text-align: left;
+}
+.photo .photo__text32 {
+  display: none;
+  width: 0;
+  overflow: hidden;
+  vertical-align: top;
+  text-align: left;
+}
+.photo .photo__text33 {
+  display: none;
+  width: 0;
+  overflow: hidden;
+  vertical-align: top;
+  text-align: left;
+}
+.photo .photo__text34 {
+  display: none;
+  width: 0;
+  overflow: hidden;
+  vertical-align: top;
+  text-align: left;
+}
+.photo .photo__text35 {
+  display: none;
+  width: 0;
+  overflow: hidden;
+  vertical-align: top;
+  text-align: left;
+}
+
+.text-center {
   text-align: center;
 }
-@media (max-width: 1350px) {
-  .photo .container .photo__text3 {
-    padding-top: 60px;
-  }
-}
-@media (max-width: 960px) {
-  .photo .container .photo__text3 {
-    padding-top: 45px;
-  }
-}
-@media (max-width: 550px) {
-  .photo .container .photo__text3 {
-    padding-top: 30px;
-  }
-}
-@media (max-width: 450px) {
-  .photo .container .photo__text3 {
-    padding-top: 20px;
-  }
-}
-.photo .container #text1 {
-  display: inline;
-}
-.photo .container #text2 {
-  display: none;
-}
-.photo .container #text3 {
-  display: none;
-}
-.photo .container #text4 {
-  display: none;
-}
-.photo .container #text5 {
-  display: none;
-}
 
-
+@keyframes photo__te1 {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 26%;
+  }
+  80% {
+    width: 26%;
+  }
+  100% {
+    width: 0;
+  }
+}
+@keyframes photo__te2 {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 30%;
+  }
+  80% {
+    width: 30%;
+  }
+  100% {
+    width: 0;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -45,58 +45,114 @@
       color: $white;
       padding-top: 90px;
       transform:scale(1.5,1);
-            @include respond($screen-10) {
-            padding-top: 60px;
-}
-            @include respond($screen-8) {
-            padding-top: 45px;
-}
-            @include respond($screen-5) {
-            padding-top: 30px;
-}
-            @include respond($screen-4) {
-            padding-top: 20px;
-}
+//             @include respond($screen-10) {
+//             padding-top: 60px;
+// }
+//             @include respond($screen-8) {
+//             padding-top: 45px;
+// }
+//             @include respond($screen-5) {
+//             padding-top: 30px;
+// }
+//             @include respond($screen-4) {
+//             padding-top: 20px;
+// }
+  }
+    .photo__probel{
+      width: 100%;
+      height: 70px;  
   }
     .photo__text3 {
       font-family: $family400;
       font-size: calc(6px + 36 * (100vw / 1920));
       line-height: normal;
       color: $white;
-      padding-top: 90px;
-      text-align: center;
-            @include respond($screen-10) {
-            padding-top: 60px;
-}
-            @include respond($screen-8) {
-            padding-top: 45px;
-}
-            @include respond($screen-5) {
-            padding-top: 30px;
-}
-            @include respond($screen-4) {
-            padding-top: 20px;
-}
+      // padding-top: 90px;
+      
+//             @include respond($screen-10) {
+//             padding-top: 60px;
+// }
+//             @include respond($screen-8) {
+//             padding-top: 45px;
+// }
+//             @include respond($screen-5) {
+//             padding-top: 30px;
+// }
+//             @include respond($screen-4) {
+//             padding-top: 20px;
+// }   
   }
-    #text1{
-      display: inline;
+      
+  }
+    .is-hidden{
+      width: 0;
+  }
+    .is-visible{
+     width: 21%;
+  }
+    .photo__text31{
+     display: none;
+     width: 0;
+     overflow: hidden;
+     vertical-align: top;
+     text-align: left;
     }
-    #text2{
+    .photo__text32{
       display: none;
+      width: 0;
+      overflow: hidden;
+      vertical-align: top;
+      text-align: left;
     }
-    #text3{
+    .photo__text33{
       display: none;
+      width: 0;
+      overflow: hidden;
+      vertical-align: top;
+      text-align: left;
     }
-    #text4{
+    .photo__text34{
       display: none;
+      width: 0;
+      overflow: hidden;
+      vertical-align: top;
+      text-align: left;
     }
-    #text5{
+    .photo__text35{
       display: none;
+      width: 0;
+      overflow: hidden;
+      vertical-align: top;
+      text-align: left;
     }
   }
+  .text-center{
+    text-align: center;}
+  @keyframes photo__te1 {
+   0% {
+      width: 0;
+    }
+    20% {
+      width: 26%;
+    }
+    80% {
+      width: 26%;
+    }
+    100% {
+      width: 0;
+    }
   }
-
-
-
-
-/*# sourceMappingURL=styles.scss.map */
+  @keyframes photo__te2 {
+    0% {
+       width: 0;
+     }
+     20% {
+       width: 30%;
+     }
+     80% {
+       width: 30%;
+     }
+     100% {
+       width: 0;
+     }
+   }
